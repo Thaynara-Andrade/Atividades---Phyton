@@ -8,4 +8,4 @@ N2 = int(input("N2: "))
 if N2 == 0:
     print ("DIVISÃO POR ZERO")
 else:
-    print (N1/N2, "ESSA É A DIVISÃO DE N1 E N2")
+    print ("ESSA É A DIVISÃO DE N1 POR N2:", N1/N2)
