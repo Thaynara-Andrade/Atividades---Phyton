@@ -1,0 +1,21 @@
+a = float(input("DIGITE O PRIMEIRO NÚMERO: "))
+b = float(input("DIGITE O SEGUNDO NÚMERO: "))
+operação = input("DIGITE A OPERAÇÃO DESEJADA (+,-,* OU /): ")
+
+if operação == "+":
+    resultado = a + b
+elif operação == "-":
+    resultado = a - b
+elif operação == "*":
+    resultado = a * b
+elif operação == "/":
+    if a == 0 or b == 0:
+       print("OPERAÇÃO INVÁLIDA!")
+       exit()
+    else:
+      resultado = a / b
+else: 
+    print("Operação inválida!")
+    exit()
+    
+print("RESULTADO: ",resultado)
