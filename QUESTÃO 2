@@ -1,0 +1,11 @@
+#Pede dois valores ao usuário
+print ("INSIRA OS VALORES DE N1 E N2")
+N1 = int(input("N1: "))
+N2 = int(input("N2: "))
+
+#Verifica se N2 é zero, se for informa divisão por zero, se não divide N1 por N2
+
+if N2 == 0:
+    print ("DIVISÃO POR ZERO")
+else:
+    print (N1/N2, "ESSA É A DIVISÃO DE N1 E N2")
