@@ -1,12 +1,13 @@
+print ("INSIRA OS LADOS DO TRIÂNGULO")
 L1 = int(input("LADO 1: "))
 L2 = int(input("LADO 2: "))
 L3 = int(input("LADO 3: "))
 
 if L1 > (L2 + L3) or L2 > (L1 + L3) or L3 > (L1 + L2):
-	print "NÃO FORMA UM TRIÂNGULO"
+	print ("NÃO FORMA UM TRIÂNGULO")
 elif L1 == L2 == L3:
-	print "EQUILÁTERO"
+	print ("TRIÂNGULO EQUILÁTERO")
 elif L1 == L2 or L1 == L3 or L2 == L3:
-	print "ISÓSCELES"
+	print ("TRIÂNGULO ISÓSCELES")
 else:
-	print "ESCALENO"
+	print ("TRIÂNGULO ESCALENO")
